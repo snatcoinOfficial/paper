@@ -13,4 +13,5 @@ PHP QR Code Example
       require('phpqrcode.php');
       $backColor=0xFFFF00; $foreColor=0xFF00FF;
       QRcode::png($depositAddress, "png/".$_user_id.".png", "L", 4, 4, false, $backColor, $foreColor);
+      echo '<img src="png/'.$__user_id.'.png">';
     ?>
