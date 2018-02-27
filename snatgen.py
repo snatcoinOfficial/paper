@@ -158,7 +158,6 @@ def reencode(pkey,version=0):
     secret = payload[:-1]
     payload = secret + chr(1)
     pkey = base58_check_encode(payload, 128+version)
-    print get_addr(gen_eckey(pkey))
 
 def test(otherversion):
     print get_addr(gen_eckey(compressed=True,version=1),version=1)
