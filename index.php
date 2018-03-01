@@ -13,9 +13,9 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script src="http://jeromeetienne.github.io/jquery-qrcode/src/qrcode.js"></script>
-    <script src="http://jeromeetienne.github.io/jquery-qrcode/src/jquery.qrcode.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="qrcode.js"></script>
+    <script src="jquery.qrcode.js"></script>
     <script type="text/javascript">
       var Mypub = "<?php echo $pubAddress; ?>";
       var Mypriv = "<?php echo $privAddress; ?>";
