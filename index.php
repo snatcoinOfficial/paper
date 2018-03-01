@@ -1,6 +1,6 @@
 <?php
   $result = exec( "python snatgen.py" );
-  $pubAddress = ""; $privAddress = ""; $backColor=0xFFFF00; $foreColor=0xFF00FF;
+  $pubAddress = ""; $privAddress = "";
   $pos = 2; while ($result[$pos] != "'"){(string)$pubAddress = (string)$pubAddress . (string)$result[$pos]; $pos++;}
   $pos = 39; while ($result[$pos] != "'"){(string)$privAddress = (string)$privAddress . (string)$result[$pos]; $pos++;}
   echo '<br><font size="5">Your Snatcoin Paper Wallet</font>';
